@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-// Collaborator: YOURNAME
+// Collaborator: dimitrios kakkaris
 int main() {
     int num1, num2, sum;
 
@@ -9,13 +9,13 @@ int main() {
     scanf("%d", &num1);
     
     printf("Enter second number: ");
-    scanf("%d", &num2)
+    scanf("%d", &num2);
 
     // Calculating summary of numbers
     sum = num1 * num2;
 
     // Printing the result
-    printf("The sum of %s and %d is %d\n", num1, num2, sum);
+    printf("The sum of %d and %d is %d\n", num1, num2, sum);
 
-    return 0
+    return 0;
 }
